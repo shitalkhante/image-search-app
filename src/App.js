@@ -34,6 +34,7 @@ const fetchImages=()=> {
   setImages(res)
   console.log(res);
 }
+console.log(bookmark);
   return (
     <div>
       <BrowserRouter>

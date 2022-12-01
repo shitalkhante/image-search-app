@@ -1,9 +1,8 @@
-import react, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../../App.css';
 import { useNavigate } from "react-router-dom";
 
 export const Main = (props) => {
-    const [state, setState] = useState("");
     const [images, setImages] = useState([]);
     const navigate = useNavigate();
     
